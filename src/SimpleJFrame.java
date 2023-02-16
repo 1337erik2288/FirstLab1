@@ -7,10 +7,10 @@ import javax.swing.*;
 public class SimpleJFrame extends JFrame{
     SimpleJFrame(String s){
         super(s);
-        setSize(500, 500);
+        setSize(400, 300);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
-        setLayout(new GridLayout(4,1));
+        setLayout(new GridLayout(3,1));
         JLabel l1 = new JLabel();
         l1.setForeground(Color.RED);
         l1.setFont(new Font("Comic Sans MS", Font.ITALIC, 20));
@@ -19,7 +19,7 @@ public class SimpleJFrame extends JFrame{
         t1.setBackground(Color.pink);
         add(t1);
         JButton b1 = new JButton();
-        b1.setText("Hello World1");
+        b1.setText("Print");
         add(b1);
 
         setVisible(true);
@@ -44,9 +44,7 @@ public class SimpleJFrame extends JFrame{
             public void mouseReleased(MouseEvent e) { }
 
             @Override
-            public void mouseEntered(MouseEvent e) {
-                l1.setText("*****");
-            }
+            public void mouseEntered(MouseEvent e) {l1.setText("*****");}
 
             @Override
             public void mouseExited(MouseEvent e) { }
