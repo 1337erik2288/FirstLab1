@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aee04143-fa77-401e-9bbc-e12e854e48f1" name="Changes" comment="выглядит чуть нормальнее">
+    <list default="true" id="aee04143-fa77-401e-9bbc-e12e854e48f1" name="Changes" comment="круто">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676527874196</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="круто">
+      <created>1676540105795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676540105795</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +105,7 @@
     <MESSAGE value="новые приколы" />
     <MESSAGE value="новые приколы2" />
     <MESSAGE value="выглядит чуть нормальнее" />
-    <option name="LAST_COMMIT_MESSAGE" value="выглядит чуть нормальнее" />
+    <MESSAGE value="круто" />
+    <option name="LAST_COMMIT_MESSAGE" value="круто" />
   </component>
 </project>
